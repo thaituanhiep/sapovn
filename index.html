@@ -3,235 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Nền tảng quản lý & bán hàng đa kênh tốt nhất cho bạn | Sapo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
-          rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/index.css">
-
-</head>
-<body>
-<div id="container">
-    <!--  Start header  -->
-    <div id="header" class=" header">
-        <div class="main-header d-flex align-items-center flex-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-2 col-8 d-flex align-items-center">
-                        <a id="logo" class="main-logo" href="/">
-                            <img src="./img/header/Sapo-logo.svg" alt="Sapo logo" class="fade show">
-                        </a>
-                    </div>
-                    <div class="col-xl-10 col-4 d-flex justify-content-end">
-                        <ul class="main-menu d-none d-xl-flex align-items-center">
-                            <li class="hasChild">
-                                <a href="javascript:;">Sản phẩm <i class="fa fa-angle-down"></i></a>
-                                <ul class="childMenu product">
-                                    <li>
-                                        <a href="#" class="d-flex align-item-start">
-                                            <img src="./img/solution/sapo-pos.png" class="icon">
-                                            <div>
-                                                <strong>Sapo POS</strong>
-                                                <p>Phần mềm quản lý bán hàng tốt nhất cho cửa hàng &amp; bán online</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex align-item-start">
-                                            <img src="./img/solution/sapo-fnb.png" class="icon">
-                                            <div>
-                                                <strong>Sapo FnB</strong>
-                                                <p>Phần mềm quản lý nhà hàng, quán cafe toàn diện</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex align-item-start">
-                                            <img src="./img/solution/sapo-go.png" class="icon">
-                                            <div>
-                                                <strong>Sapo GO</strong>
-                                                <p>Quản lý bán hàng online dành cho người bán hàng trên Sàn và
-                                                    Facebook</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex align-item-start">
-                                            <img src="./img/solution/sapo-web.png" class="icon">
-                                            <div>
-                                                <strong>Sapo Web</strong>
-                                                <p>Giải pháp thiết kế website bán hàng chuyên nghiệp</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex align-item-start">
-                                            <img src="./img/solution/sapo-omnichannel.png" class="icon">
-                                            <div>
-                                                <strong>Sapo Omnichannel</strong>
-                                                <p>Giải pháp quản lý và bán hàng đa kênh từ Online đến Offline</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex align-item-start">
-                                            <img src="./img/solution/sapo-enterprise.png" class="icon">
-                                            <div>
-                                                <strong>Sapo Enterprise</strong>
-                                                <p>Giải pháp quản lý bán hàng và phát triển thương hiệu cho doanh nghiệp
-                                                    lớn</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Bảng giá </a>
-                            </li>
-                            <li><a href="#">Khách hàng</a></li>
-                            <li class="hasChild">
-                                <a href="javascript:;">Thêm <i class="fa fa-angle-down"></i></a>
-                                <ul class="childMenu other">
-                                    <li><a href="#">Về chúng tôi</a></li>
-                                    <li><a href="#">Sapo là gì?</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Sapo Express</a></li>
-                                    <li><a href="#">Sapo Fin <span class="badge">New</span></a></li>
-                                    <li><a href="#">Giới thiệu khách hàng</a></li>
-                                    <li><a href="#">Báo chí nói về Sapo</a></li>
-                                    <li><a href="#">Sapo updates</a></li>
-                                    <li><a href="#">Tuyển dụng</a></li>
-                                    <li><a href="#">Liên hệ</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="d-none d-xl-flex justify-content-end">
-                            <li>
-                                <a href="#">Trợ giúp</a>
-                            </li>
-                            <li class="login">
-                                <a href="#">Đăng nhập</a>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <a class="btn-registration" href="javascript:;">
-                                    <span>Dùng thử</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <a aria-label="button" href="javascript:;" class="d-inline-block d-xl-none btn-menu"
-                           onclick="openMenu();">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="menu-mobile">
-        <div class="logo-mobile">
-            <a href="/">
-                <img src="./img/header/Sapo-logo.svg" alt="Sapo logo">
-            </a>
-            <a aria-label="Intermdiate JavaScript" href="javascript:;" class="btn-close-menu" onclick="closeMenu();">
-                <i class="ti-close"></i>
-            </a>
-        </div>
-        <div class="box-scroll">
-
-            <ul class="nav nav-bottom">
-                <li class="show-sub">
-                    <a data-toggle="collapse" href="javascript:;" data-target="#nav-bottom-child-1">
-                        Sản phẩm
-                        <i class="fa fa-caret-down"></i>
-                    </a>
-                    <div id="nav-bottom-child-1" class="panel-collapse collapse">
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">
-                                    <strong>Sapo POS</strong>
-                                    <span>Phần mềm quản lý bán hàng</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <strong>Sapo FnB</strong>
-                                    <span>Phần mềm quản lý nhà hàng</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <strong>Sapo GO</strong>
-                                    <span>Quản lý bán hàng online</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <strong>Sapo Web</strong>
-                                    <span>Giải pháp thiết kế website bán hàng</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <strong>Sapo Omnichannel</strong>
-                                    <span>Giải pháp quản lý bán hàng đa kênh</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <strong>Sapo Enterprise</strong>
-                                    <span>Quản lý và phát triển thương hiệu <br>cho doanh nghiệp lớn</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">
-                        Bảng giá </a>
-                </li>
-                <li><a href="#">Khách hàng</a></li>
-                <li class="show-sub">
-                    <a data-toggle="collapse" href="javascript:;" data-target="#nav-bottom-child-2">
-                        Thêm<i class="fa fa-caret-down"></i>
-                    </a>
-                    <div id="nav-bottom-child-2" class="panel-collapse collapse">
-                        <ul class="sub-menu">
-                            <li><a href="#">Về chúng tôi</a></li>
-                            <li><a href="#">Sapo là gì?</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Sapo Express</a></li>
-                            <li><a href="#">Sapo Fin <span class="badge">New</span></a></li>
-                            <li><a href="#">Giới thiệu khách hàng</a></li>
-                            <li><a href="#">Báo chí nói về Sapo</a></li>
-                            <li><a href="#">Sapo updates</a></li>
-                            <li><a href="#">Tuyển dụng</a></li>
-                            <li><a href="#">Liên hệ</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">Trợ giúp</a>
-                </li>
-                <li class="login">
-                    <a href="#">Đăng nhập</a>
-                </li>
-                <li class="trial">
-                    <a class="btn-registration" href="javascript:;">
-                        <span>Dùng thử</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="overlay-menu" onclick="closeMenu()" style="display: none"></div>
-    <script type="text/javascript">
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        };
         function openMenu() {
             $('body').css('overflow', 'hidden');
             $('.overlay-menu').fadeIn(300);
@@ -244,8 +43,23 @@
             $('.menu-mobile').removeClass('show');
         }
     </script>
-    <!--  End header  -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<div id="container">
+    <div w3-include-html="layout/header.html"></div>
 
     <div id="wrapper" class="clearfix">
         <div class="home-wrapper">
@@ -275,7 +89,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="item sapopos">
                                 <div class="title">
-                                    <img class="icon" src="./img/solution/sapo-pos.png">
+                                    <img class="icon" src="img/index/solution/sapo-pos.png">
                                     <div>
                                         <h3><a href="#">Sapo Pos</a></h3>
                                         <p>Phần mềm quản lý bán hàng tốt nhất cho cửa hàng &amp; bán online</p>
@@ -294,7 +108,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="item sapoweb">
                                 <div class="title">
-                                    <img class="icon" src="./img/solution/sapo-web.png">
+                                    <img class="icon" src="img/index/solution/sapo-web.png">
                                     <div>
                                         <h3><a href="#">Sapo Web</a></h3>
                                         <p>Giải pháp thiết kế website bán hàng chuyên nghiệp</p>
@@ -313,7 +127,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="item sapogo">
                                 <div class="title">
-                                    <img class="icon" src="./img/solution/sapo-go.png">
+                                    <img class="icon" src="img/index/solution/sapo-go.png">
                                     <div>
                                         <h3><a href="#">Sapo Go</a></h3>
                                         <p>Giải pháp quản lý bán hàng online</p>
@@ -332,7 +146,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="item sapofnb">
                                 <div class="title">
-                                    <img class="icon" src="./img/solution/sapo-fnb.png">
+                                    <img class="icon" src="img/index/solution/sapo-fnb.png">
                                     <div>
                                         <h3><a href="#">Sapo Fnb</a></h3>
                                         <p>Phần mềm quản lý nhà hàng, quán cafe toàn diện</p>
@@ -351,7 +165,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="item sapoomni">
                                 <div class="title">
-                                    <img class="icon" src="./img/solution/sapo-omnichannel.png">
+                                    <img class="icon" src="img/index/solution/sapo-omnichannel.png">
                                     <div class="fix-padding">
                                         <h3><a href="#">Sapo Omnichannel</a></h3>
                                         <p>Giải pháp quản lý và bán hàng đa kênh</p>
@@ -370,7 +184,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="item sapoenterprise">
                                 <div class="title">
-                                    <img class="icon" src="./img/solution/sapo-enterprise.png">
+                                    <img class="icon" src="img/index/solution/sapo-enterprise.png">
                                     <div>
                                         <h3><a href="#">Sapo Enterprise</a></h3>
                                         <p>Quản lý &amp; phát triển thương hiệu cho doanh nghiệp lớn</p>
@@ -401,61 +215,61 @@
                     <div class="row">
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-saothaiduong.png"
+                                <img src="img/index/customer/logo-saothaiduong.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-viglacera.png"
+                                <img src="img/index/customer/logo-viglacera.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-sonha.png"
+                                <img src="img/index/customer/logo-sonha.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-alphabooks.png"
+                                <img src="img/index/customer/logo-alphabooks.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-hongha.png"
+                                <img src="img/index/customer/logo-hongha.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-dhk.png?v=2"
+                                <img src="img/index/customer/logo-dhk.png?v=2"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-lug.png"
+                                <img src="img/index/customer/logo-lug.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-ducvietfoods.png"
+                                <img src="img/index/customer/logo-ducvietfoods.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-maxxsport.png"
+                                <img src="img/index/customer/logo-maxxsport.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
                         <div class="col-lg col-md col-6 customer-item">
                             <a href="#" rel="noopener">
-                                <img src="./img/customer/logo-beemart.png"
+                                <img src="img/index/customer/logo-beemart.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </a>
                         </div>
@@ -490,7 +304,7 @@
                                     <div class="news-item">
                                         <a href="#">
                                             <img alt="J&amp;T Express đồng giá giao hàng liên tỉnh chỉ 18.500đ trên Sapo"
-                                                 src="./img/news/e7fbad0688968525e70647bd7dacb15f_360_250.png"
+                                                 src="img/index/news/e7fbad0688968525e70647bd7dacb15f_360_250.png"
                                                  class="fade show">
                                         </a>
                                         <div class="time">
@@ -515,7 +329,7 @@
                                     <div class="news-item">
                                         <a href="#">
                                             <img alt="Sapo Go chính thức kết nối Sàn Thương mại điện tử Tiki"
-                                                 src="./img/news/1800x1200_360_250.jpg"
+                                                 src="img/index/news/1800x1200_360_250.jpg"
                                                  class="fade show">
                                         </a>
                                         <div class="time">
@@ -540,7 +354,7 @@
                                     <div class="news-item">
                                         <a href="#">
                                             <img alt="Sapo nhận đầu tư từ quỹ Smilegate Hàn Quốc và Teko Ventures "
-                                                 src="./img/news/thumbnail tin dau tu Hanoi TFV_360_250.png"
+                                                 src="img/index/news/thumbnail tin dau tu Hanoi TFV_360_250.png"
                                                  class="fade show">
                                         </a>
                                         <div class="time">
@@ -574,7 +388,7 @@
                                            href="#"
                                         >
                                             <img class="news-blog fade show"
-                                                 src="./img/news/sapo-update-1.jpg"
+                                                 src="img/index/news/sapo-update-1.jpg"
                                                  alt="[Sapo Update]: Tháng 8 Sapo thêm nhiều tính năng mới hỗ trợ shop kinh doanh">
                                         </a>
                                         <div class="time">
@@ -598,7 +412,7 @@
                                            href="#"
                                         >
                                             <img class="news-blog fade show"
-                                                 src="./img/news/4-2.png"
+                                                 src="img/index/news/4-2.png"
                                                  alt="Sapo hợp tác Misa: Lợi ích cực lớn cho khách hàng dùng hóa đơn điện tử MeInvoice"></a>
                                         <div class="time"><i class="fa fa-clock-o"></i> Thứ 7, 25/07/2020</div>
                                         <div class="title"><a
@@ -618,7 +432,7 @@
                                            href="#"
                                         >
                                             <img class="news-blog fade show"
-                                                 src="./img/news/sapo-fnb-1.jpg"
+                                                 src="img/index/news/sapo-fnb-1.jpg"
                                                  alt="Sapo FnB ra mắt phiên bản trên Windows: Tính năng ưu việt, quản lý hiệu quả"></a>
                                         <div class="time"><i class="fa fa-clock-o"></i> Thứ 7, 18/07/2020</div>
                                         <div class="title"><a
@@ -644,27 +458,27 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-2 col-md-4 col-6 source-item no-border">
-                                <img height="20" src="./img/newsource/logo-dantri.png"
+                                <img height="20" src="img/index/newsource/logo-dantri.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </div>
                             <div class="col-lg-2 col-md-4 col-6 source-item">
-                                <img height="31" src="./img/newsource/logo-cafebiz.png"
+                                <img height="31" src="img/index/newsource/logo-cafebiz.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </div>
                             <div class="col-lg-2 col-md-4 col-6 source-item">
-                                <img height="20" src="./img/newsource/logo-vtv.png"
+                                <img height="20" src="img/index/newsource/logo-vtv.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </div>
                             <div class="col-lg-2 col-md-4 col-6 source-item">
-                                <img height="18" src="./img/newsource/logo-vietnamplus.png"
+                                <img height="18" src="img/index/newsource/logo-vietnamplus.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </div>
                             <div class="col-lg-2 col-md-4 col-6 source-item">
-                                <img height="25" src="./img/newsource/logo-vnexpress.png"
+                                <img height="25" src="img/index/newsource/logo-vnexpress.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </div>
                             <div class="col-lg-2 col-md-4 col-6 source-item">
-                                <img height="31" src="./img/newsource/logo-ictnews.png"
+                                <img height="31" src="img/index/newsource/logo-ictnews.png"
                                      alt="Nền tảng quản lý và bán hàng đa kênh tốt nhất cho bạn" class="fade show">
                             </div>
                         </div>
@@ -682,17 +496,17 @@
                     </p>
                     <div class="row content">
                         <div class="col-lg-4 col-md-4">
-                            <img src="./img/slogan/staff.png" class="icon">
+                            <img src="img/index/slogan/staff.png" class="icon">
                             <p>+500</p>
                             <span>Nhân viên</span>
                         </div>
                         <div class="col-lg-4 col-md-4">
-                            <img src="./img/slogan/customer.png" class="icon">
+                            <img src="img/index/slogan/customer.png" class="icon">
                             <p>+67,000</p>
                             <span>Khách hàng</span>
                         </div>
                         <div class="col-lg-4 col-md-4">
-                            <img src="./img/slogan/partner.png" class="icon">
+                            <img src="img/index/slogan/partner.png" class="icon">
                             <p>+40</p>
                             <span>Đối tác</span>
                         </div>
@@ -704,317 +518,12 @@
         </div>
     </div>
 
-    <!--  Start footer  -->
-    <div id="footer" class="footer">
-        <div class="footer-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="title">Sapo.vn</div>
-                        <ul>
-                            <li>
-                                <a href="#">Về chúng tôi</a>
-                            </li>
-                            <li>
-                                <a href="#">Sapo là gì ?</a>
-                            </li>
-                            <li>
-                                <a href="#">Bảng giá</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Kho giao diện</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Kho ứng dụng web</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Tuyển dụng</a>
-                            </li>
-                            <li>
-                                <a href="#">Profile</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="title">Kênh bán hàng</div>
-                        <ul>
-                            <li>
-                                <a href="#" rel="dofollow">Bán hàng tại cửa hàng</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Bán hàng trên website</a>
-                            </li>
-                            <li>
-                                <a href="#">Bán hàng trên Facebook</a>
-                            </li>
-                            <li>
-                                <a href="#">Bán hàng trên Lazada</a>
-                            </li>
-                            <li>
-                                <a href="#">Bán hàng đa kênh Omnichannel</a>
-                            </li>
-                            <li>
-                                <a href="#">Bán hàng trên Shopee</a>
-                            </li>
-                            <li>
-                                <a href="#">Bán hàng trên Sendo</a>
-                            </li>
-                            <li>
-                                <a href="#">Bán hàng trên Tiki</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <hr style="border-top-color: #2b2a32; width: 100%; margin: 25px 0 30px;" class="d-block d-md-none">
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="title"><a href="#">Thiết kế website bán hàng</a></div>
-                        <ul>
-                            <li>
-                                <a href="#" rel="dofollow">Thiết kế web thương mại điện tử</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="dofollow">Thiết kế web thời trang</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="dofollow">Thiết kế web mỹ phẩm</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="dofollow">Thiết kế web doanh nghiệp</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="dofollow">Thiết kế website bất động sản</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="dofollow">Thiết kế website trọn gói</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="dofollow">Thiết kế website chuẩn SEO</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="title"><a href="#">Quản lý bán hàng</a></div>
-                        <ul>
-                            <li>
-                                <a href="#">Cửa hàng thời trang</a>
-                            </li>
-                            <li>
-                                <a href="#">Cửa hàng tạp hoá</a>
-                            </li>
-                            <li>
-                                <a href="#">Siêu thị mini</a>
-                            </li>
-                            <li>
-                                <a href="#">Cửa hàng mỹ phẩm</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <hr style="border-top-color: #2b2a32; width: 100%; margin: 25px 0 30px;" class="d-block d-md-none">
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="title">Hợp tác</div>
-                        <ul>
-                            <li>
-                                <a href="#" rel="nofollow">Chương trình đối tác</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Nhà phát triển ứng dụng</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Dành cho nhà thiết kế</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Dành cho nhà đầu tư</a>
-                            </li>
-                            <li>
-                                <a href="#">Thiết kế website miễn phí</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Chương trình đại lý</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg col-md-4 col-6 d-block d-lg-none">
-                        <div class="title">Trợ giúp</div>
-                        <ul>
-                            <li>
-                                <a href="#" rel="noopener">Trung tâm trợ giúp</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Tài liệu nhà phát triển</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Hình thức thanh toán</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Hướng dẫn đăng nhập Sapo</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Blog Sapo</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">SEO Sapo Web</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Quy định sử dụng</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Chính sách bảo mật</a>
-                            </li>
-                            <li>
-                                <a href="#">Liên hệ</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-address">
-            <div class="container">
-                <div class="row">
-                    <div class="col-w-20 col-md-4 d-lg-block d-none">
-                        <div class="title">Trợ giúp</div>
-                        <ul>
-                            <li>
-                                <a href="#" rel="noopener">Trung tâm trợ giúp</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Tài liệu nhà phát triển</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Hình thức thanh toán</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Hướng dẫn đăng nhập Sapo</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Blog Sapo</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">SEO Sapo Web</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Quy định sử dụng</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="nofollow">Chính sách bảo mật</a>
-                            </li>
-                            <li>
-                                <a href="#">Liên hệ</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-w-20 col-md-4">
-                        <div class="title">Dịch vụ</div>
-                        <ul>
-                            <li>
-                                <a href="#">Đăng kí tên miền</a>
-                            </li>
-                            <li>
-                                <a href="#">Email doanh nghiệp</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Dịch vụ support</a>
-                            </li>
-                            <li>
-                                <a href="#">Dịch vụ chiến lược nội dung</a>
-                            </li>
-                            <li>
-                                <a href="#">Dịch vụ chăm sóc nội dung</a>
-                            </li>
-                        </ul>
-                        <div class="title shared-experience">
-                            <a href="#" rel="noopener">Thiết bị bán hàng</a>
-                        </div>
-                        <ul>
-                            <li>
-                                <a href="#" rel="noopener">Máy in hóa đơn</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Máy in mã vạch</a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener">Máy quét mã vạch</a>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="col-w-60 col-md-8">
-                        <div class="title">Liên hệ</div>
-                        <ul class="social">
-                            <li>
-                                <a href="#" rel="noopener" aria-label="Facebook"><i
-                                        class="fa fa-facebook-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener" aria-label="Youtube"><i
-                                        class="fa fa-youtube"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" rel="noopener" aria-label="Blog sapo"><i
-                                        class="fa fa-weixin"></i></a>
-                            </li>
-                        </ul>
-                        <div class="contact-info">
-                            <p class="text-uppercase">Công ty cổ phần công nghệ Sapo (Sapo Technology JSC)</p>
-                            <p><span>Trụ sở <i class="fa fa-map-marker"></i> </span>Tầng 6 - Tòa nhà Ladeco - 266 Đội
-                                Cấn - Phường Liễu Giai - Quận Ba Đình - TP Hà Nội</p>
-                            <p>
-                                <span class="d-xl-inline d-block">Chi nhánh </span><i class="fa fa-map-marker"></i> Lầu
-                                3 - Tòa nhà Lữ Gia - Số 70 Lữ Gia - Phường 15 - Quận 11 - TP Hồ Chí Minh
-                            </p>
-                            <p>
-                                <span style="visibility: hidden" class="d-none d-xl-inline">Chi nhánh </span><i
-                                    class="fa fa-map-marker"></i> Số 124 - Đường Lê Đình Lý - Phường Vĩnh Trung - Quận
-                                Thanh Khê - TP Đà Nẵng
-                            </p>
-                            <p>
-                                <span style="visibility: hidden" class="d-none d-xl-inline">Chi nhánh </span><i
-                                    class="fa fa-map-marker"></i> Số 127 - Đường Lý Thường Kiệt - Phường Lê Lợi - TP
-                                Vinh - Tỉnh Nghệ An
-                            </p>
-                            <p><strong>Tổng đài tư vấn và hỗ trợ khách hàng: </strong><b>1800 6750</b></p>
-                            <p><span>Email: </span><b>support@sapo.vn</b></p>
-                            <p>Từ 8h00 – 22h00 các ngày từ thứ 2 đến Chủ nhật</p>
-                        </div>
-                        <a href="#" rel="noopener" class="footer-bct-hanggia">
-                            <img src="./img/footer/bct-hanggia.png"
-                                 alt="Chứng nhận nói không với hàng giả - Bộ Công Thương" class="fade show">
-                        </a>
-                        <a href="#" rel="noopener" class="footer-bct">
-                            <img src="./img/footer/bocongthuong.png" alt="Chứng nhận Bộ Công Thương" class="fade show">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-6 order-md-1 order-3">
-                        <p class="copyright"><span class="d-none d-lg-inline-block">Copyright © 2020&nbsp;</span><a
-                                href="https://www.sapo.vn" rel="noopener">Sapo.vn</a> - Nền tảng quản lý
-                            và bán hàng đa kênh được sử dụng nhiều nhất Việt Nam</p>
-                    </div>
-                    <hr style="border-top-color: #2b2a32; width: 100%;margin:0;" class="d-block d-sm-none order-2">
-                    <div class="col-lg-5 col-md-6 order-md-2 order-1">
-                        <p class="achievement">
-                            <span>Sản phẩm đạt giải: <br class="d-block d-lg-none">Nhân tài Đất Việt 2013 &amp; Sao Khuê  2015</span>
-                            <span class="icon-achievement"><img src="./img/footer/icon-cup.png"
-                                                                data-src="/Themes/Portal/Default/Styles_New/images/icon-cup.png"
-                                                                alt="Giải thưởng" class="fade show"></span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <p class="copyright-mobile d-lg-none d-md-block d-none">© Copyright 2008 - 2020</p>
-        </div>
-    </div>
-    <!--  End footer  -->
-
+    <div w3-include-html="layout/footer.html"></div>
 </div>
 
+<script>
+    includeHTML();
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

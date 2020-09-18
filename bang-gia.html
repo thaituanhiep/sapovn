@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng báo giá các dịch vụ quán lý bán hàng Sapo</title>
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        };
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/bang-gia.css">
+</head>
+<body>
+<div id="container">
+    <div w3-include-html="layout/header.html"></div>
+
+    <div id="wrapper">
+        <div class="home-price">
+            <div class="packages text-center">
+                <div class="container">
+                    <h1>Bảng giá các gói dịch vụ Sapo</h1>
+                    <p>Hãy lựa chọn giải pháp phù hợp với nhu cầu của bạn và dùng thử miễn phí 15 ngày</p>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10">
+                            <div class="item pos">
+
+                                <div class="name-price">
+                                    <h2><a href="#">Sapo POS</a></h2>
+                                    <p>Phần mềm quản lý bán hàng</p>
+                                    <div class="price">
+                                        <div>
+                                            <span class="price-regular"><sup class="tu">Từ</sup><span
+                                                    class="price-inline">119.000</span><sup class="d">đ</sup><span
+                                                    class="date">/tháng</span></span>
+                                        </div>
+                                    </div>
+                                    <a href="javascript:;" class="btn-registration">Dùng thử</a>
+                                    <div class="view-detail-xs hidden-lg hidden-md hidden-sm"><a href="#" class="">Xem
+                                        chi tiết bảng giá <i class="fa fa-angle-double-right"></i></a></div>
+                                </div>
+                                <div class="extra-info">
+                                    <strong>Gói dịch vụ bao gồm:<i class="d-block d-md-none fa fa-minus"></i></strong>
+                                    <ul>
+                                        <li>Sản phẩm không giới hạn</li>
+                                        <li>Bán hàng trên Facebook</li>
+                                        <li>1 cửa hàng</li>
+                                        <li>Báo cáo bán hàng</li>
+                                        <li>Quản lý kho</li>
+                                        <li class="no-icon hidden-xs"><a href="#" class="">Xem chi tiết bảng giá <i
+                                                class="fa fa-angle-double-right"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="item fnb">
+                                        <h2><a href="#">Sapo FNB</a></h2>
+                                        <p>Quản lý nhà hàng, quán cafe</p>
+                                        <div class="price">
+                                            <div>
+                                                <span class="price-regular"><sup class="tu">Từ</sup><span
+                                                        class="price-inline">119.000</span><sup class="d">đ</sup><span
+                                                        class="date">/tháng</span></span>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:;" class="btn-registration">Dùng thử</a>
+                                        <div class="view-detail-xs hidden-lg hidden-md hidden-sm"><a href="#" class="">Xem
+                                            chi tiết bảng giá <i class="fa fa-angle-double-right"></i></a></div>
+                                        <strong>Gói dịch vụ bao gồm:<i
+                                                class="d-block d-md-none fa fa-plus"></i></strong>
+                                        <ul>
+                                            <li>1 nhà hàng</li>
+                                            <li>5 thiết bị</li>
+                                            <li>Không giới hạn món</li>
+                                            <li>Quản lý thực đơn</li>
+                                            <li>Báo cáo bán hàng</li>
+                                            <li class="no-icon hidden-xs"><a href="#" class="">Xem chi tiết bảng giá <i
+                                                    class="fa fa-angle-double-right"></i></a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item go">
+                                        <h2><a href="#">Sapo GO</a></h2>
+                                        <p>Quản lý bán hàng online</p>
+                                        <div class="price">
+                                            <div>
+                                                <span class="price-regular"><sup class="tu">Từ</sup><span
+                                                        class="price-inline">119.000</span><sup class="d">đ</sup><span
+                                                        class="date">/tháng</span></span>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:;" class="btn-registration"
+                                           onclick="showModalTrial(this, 6, false)">Dùng thử</a>
+                                        <div class="view-detail-xs hidden-lg hidden-md hidden-sm"><a href="#" class="">Xem
+                                            chi tiết bảng giá <i class="fa fa-angle-double-right"></i></a></div>
+                                        <strong>Gói dịch vụ bao gồm:<i
+                                                class="d-block d-md-none fa fa-plus"></i></strong>
+                                        <ul>
+                                            <li>Bán hàng trên Facebook</li>
+                                            <li>Bán hàng trên Shopee</li>
+                                            <li>Bán hàng trên Lazada</li>
+                                            <li>Quản lý kho tập trung</li>
+                                            <li>Báo cáo bán hàng</li>
+                                            <li class="no-icon hidden-xs"><a href="#" class="">Xem chi tiết bảng giá <i
+                                                    class="fa fa-angle-double-right"></i></a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item web">
+                                        <h2><a href="#">Sapo Web</a></h2>
+                                        <p>Thiết kế website bán hàng</p>
+                                        <div class="price">
+                                            <div>
+                                                <span class="price-regular"><span
+                                                        class="price-inline">299.000</span><sup class="d">đ</sup><span
+                                                        class="date">/tháng</span></span>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:;" class="btn-registration"
+                                           onclick="showModalTrial(this, 2, false)">Dùng thử</a>
+                                        <div class="view-detail-xs hidden-lg hidden-md hidden-sm"><a href="#" class="">Xem
+                                            chi tiết bảng giá <i class="fa fa-angle-double-right"></i></a></div>
+
+                                        <strong>Gói dịch vụ bao gồm:<i
+                                                class="d-block d-md-none fa fa-plus"></i></strong>
+                                        <ul>
+                                            <li>Sản phẩm không giới hạn</li>
+                                            <li>1 website bán hàng</li>
+                                            <li>Dung lượng 5G</li>
+                                            <li>5 email tên miền</li>
+                                            <li>Thanh toán trực tuyến</li>
+                                            <li class="no-icon hidden-xs"><a href="#" class="">Xem chi tiết bảng giá <i
+                                                    class="fa fa-angle-double-right"></i></a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="item omni">
+                                        <div class="name-price">
+                                            <h2><a href="#">Sapo Omni</a></h2>
+                                            <p>Quản lý và bán hàng đa kênh</p>
+                                            <div class="price">
+                                                <div>
+                                                    <span class="price-regular"><span
+                                                            class="price-inline">599.000</span><sup
+                                                            class="d">đ</sup><span class="date">/tháng</span></span>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:;" class="btn-registration"
+                                               onclick="showModalTrial(this, 5, true)">Dùng thử</a>
+                                            <div class="view-detail-xs hidden-lg hidden-md hidden-sm"><a href="#"
+                                                                                                         class="">Xem
+                                                chi tiết bảng giá <i class="fa fa-angle-double-right"></i></a></div>
+                                        </div>
+                                        <div class="extra-info">
+                                            <strong>Gói dịch vụ bao gồm:<i
+                                                    class="d-block d-md-none fa fa-plus"></i></strong>
+                                            <ul>
+                                                <li>Sản phẩm không giới hạn</li>
+                                                <li>Bán hàng trên Sàn TMĐT</li>
+                                                <li>1 cửa hàng</li>
+                                                <li>Bán hàng trên Facebook</li>
+                                                <li>1 website bán hàng</li>
+                                                <li class="no-icon hidden-xs"><a href="#" class="">Xem chi tiết bảng giá
+                                                    <i class="fa fa-angle-double-right"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p class="notice">
+                        <b>* Lưu ý</b>: Bảng giá trên chưa bao gồm phí khởi tạo 1.500.000đ cho gói Sapo web và
+                        2.000.000đ cho gói Sapo Omni.<br>
+                        Quý khách sẽ được miễn phí chi phí khởi tạo khi đăng ký sử dụng dịch vụ Sapo Web, Sapo
+                        Omnichannel từ 2 năm trở lên.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div w3-include-html="layout/footer.html"></div>
+</div>
+
+<script>
+    includeHTML();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

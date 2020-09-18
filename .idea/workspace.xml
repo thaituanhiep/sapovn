@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4d62199-7657-475f-9de0-d60a0823506d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="a4d62199-7657-475f-9de0-d60a0823506d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -23,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hU0UDx0oOMKJUGG1bIEOMPurlu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,29 +29,43 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/khach-hang" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\this PC\WebstormProjects\sapovn\img\banner" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\khach-hang" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\Themes\Portal\Default\StylesV2\Images\landingsite\ld-customersapo" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\index\slogan" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\index\customer" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\index" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\khach-hang" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\bang-gia" />
       <recent name="C:\Users\this PC\WebstormProjects\sapovn\img\header" />
       <recent name="C:\Users\this PC\WebstormProjects\sapovn\font" />
       <recent name="C:\Users\this PC\WebstormProjects\sapovn\img\footer" />
-      <recent name="C:\Users\this PC\WebstormProjects\sapovn\img\newsource" />
-      <recent name="C:\Users\this PC\WebstormProjects\sapovn\img" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="bang-gia.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/bang-gia.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="khach-hang.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/khach-hang.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.khach-hang.html" />
+        <item itemvalue="JavaScript Debug.bang-gia.html" />
       </list>
     </recent_temporary>
   </component>
@@ -71,8 +83,11 @@
       <workItem from="1600073249753" duration="25231000" />
       <workItem from="1600135994319" duration="9217000" />
       <workItem from="1600158622367" duration="11810000" />
-      <workItem from="1600173230997" duration="93000" />
-      <workItem from="1600173348119" duration="15000" />
+      <workItem from="1600346692337" duration="111000" />
+      <workItem from="1600346817921" duration="14163000" />
+      <workItem from="1600383602192" duration="5212000" />
+      <workItem from="1600388832408" duration="4108000" />
+      <workItem from="1600395081995" duration="1682000" />
     </task>
     <servers />
   </component>
@@ -80,6 +95,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Notifications" timestamp="1600346843725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600346843725" />
     <state x="552" y="182" key="#SCSS" timestamp="1600144725445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -88,54 +107,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="599" y="320" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600143705903" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1600392963288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963288" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.1.bottom" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.1.bottom" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.1.center" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.1.center" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.1.left" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.1.left" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.1.right" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.1.right" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.2.bottom" timestamp="1600170038547">
+    <state width="1899" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.2.bottom" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038547" />
-    <state width="1899" height="288" key="GridCell.Tab.2.center" timestamp="1600170038547">
+    <state width="1899" height="288" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.2.center" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038547" />
-    <state width="1899" height="288" key="GridCell.Tab.2.left" timestamp="1600170038546">
+    <state width="1899" height="288" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.2.left" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038546" />
-    <state width="1899" height="288" key="GridCell.Tab.2.right" timestamp="1600170038547">
+    <state width="1899" height="288" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
+    <state width="1899" height="288" key="GridCell.Tab.2.right" timestamp="1600392963289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038547" />
+    <state width="1899" height="288" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600392963289" />
     <state width="1899" height="288" key="GridCell.Tab.3.bottom" timestamp="1600170038547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,9 +171,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="288" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600170038547" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1600346862840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600346862840" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600052462097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600052462097" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sapovn$bang_gia_html.dat" NAME="bang-gia.html Coverage Results" MODIFIED="1600384431823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

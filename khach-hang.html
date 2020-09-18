@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Những khách hàng tiêu biểu đã tin dùng dịch vụ Sapo</title>
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        };
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/khach-hang.css">
+</head>
+<body>
+<div id="container">
+    <div w3-include-html="layout/header.html"></div>
+
+    <div id="wrapper" class="clearfix">
+        <div class="customer-sapo">
+            <div class="banner text-center">
+                <div class="container">
+                    <h1>Hơn 67,000 doanh nghiệp, chủ shop đã chọn Sapo</h1>
+                    <p>Hãy cùng lắng nghe cảm nhận của khách hàng về chúng tôi</p>
+                </div>
+            </div>
+
+            <div class="customer-slide text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10">
+                            <div class="swiper-container swiper-container-horizontal">
+                                <div class="swiper-wrapper"
+                                     style="transition-duration: 0ms; transform: translate3d(-1530px, 0px, 0px);">
+                                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"
+                                         >
+                                        <div class="content">
+                                            <p>
+                                                Tôi được bạn giới thiệu bảo dùng Sapo thử xem, tôi có tải thử 1 bản quản
+                                                lý cửa hàng của Sapo vào điện thoại thì thấy khá thú vị. Tôi xem được
+                                                doanh thu, các đơn hàng được bán trong ngày, thậm chí tôi còn biết được
+                                                mặt hàng nào đang bán chạy. Rất tiện lợi
+                                            </p>
+                                            <strong>Chủ cửa hàng Viethands</strong>
+                                            <span>Địa chỉ: 16-18 Xuân Diệu, Tân Bình, TP.HCM</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=8dYgKXfRth0"
+                                               data-fancybox="video" title="Chủ cửa hàng Viethands">
+                                                <img src="./img/khach-hang/customer-slide-5.jpg"
+                                                     alt="Chủ cửa hàng Viethands">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-swiper-slide-index="0" >
+                                        <div class="content">
+                                            <p>
+                                                Nhờ việc sử dụng phần mềm Sapo để quản lý hệ thống cửa hàng kết hợp bán
+                                                hàng online trên facebook và trên sàn thương mại điện tử. Khách hàng
+                                                Sapo vẫn hàng ngày tư vấn, chốt đơn, đóng gói và vận chuyển hàng hóa tới
+                                                tay người tiêu dùng
+                                            </p>
+                                            <strong>Bán hàng online mùa dịch Covid-19</strong>
+                                            <span>Cơ hội và thách thức</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=EC-eWXIC0n4"
+                                               data-fancybox="video"
+                                               title="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức">
+                                                <img src="./img/khach-hang/customer-slide.jpg"
+                                                     alt="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức"
+                                                     class="fade show">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
+                                         >
+                                        <div class="content">
+                                            <p>
+                                                Từ khi sử dụng <a href="#">phần mềm quản lý bán hàng</a> Sapo POS, việc
+                                                quản lý cửa hàng của tôi trở nên dễ dàng và nhẹ nhàng hơn. Chỉ cần một
+                                                chiếc điện thoại tôi có thể nắm bắt được tất cả mọi thông tin tại cửa
+                                                hàng. Nhờ vậy mà tôi có nhiều thời gian hơn dành cho gia đình và con
+                                                trai của mình.
+                                            </p>
+                                            <strong>Chủ cửa hàng mỹ phẩm Lengrin</strong>
+                                            <span>Địa chỉ: Số 34, Lò Đúc, Hà Nội</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=_if4WTgxong"
+                                               data-fancybox="video" title="Chủ cửa hàng mỹ phẩm Lengrin">
+                                                <img src="./img/khach-hang/customer-slide-1.jpg"
+                                                     alt="Chủ cửa hàng mỹ phẩm Lengrin" class="fade show">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2"
+                                         >
+                                        <div class="content">
+                                            <p>
+                                                Cái lợi của Sapo POS là không những giúp lưu lại các dòng xe với các
+                                                thông tin từ nhà sản xuất, giá thành, màu sắc trên hệ thống, mà Sapo còn
+                                                giúp tôi quản lý đầu vào, đầu ra, tồn kho thực tế để tôi kịp thời lên
+                                                phương án và điều chỉnh hàng hóa kịp thời
+                                            </p>
+                                            <strong>Chủ cửa hàng xe điện Lan Anh</strong>
+                                            <span>Địa chỉ: Số 198 Lò Đúc, Hà Nội</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=EGitgpy6mLY"
+                                               data-fancybox="video" title="Chủ cửa hàng xe điện Lan Anh">
+                                                <img src="img/khach-hang/customer-slide-2.jpg"
+                                                     alt="Chủ cửa hàng xe điện Lan Anh" class="fade show">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3"
+                                         >
+                                        <div class="content">
+                                            <p>
+                                                Năm ngoái, khi lượng sản phẩm của tôi lên đến khoảng 1000 mặt hàng mà
+                                                lại nằm ở nhiều kho khác nhau, nên các bạn nhân viên của tôi thường
+                                                không biết được ngay hàng này trong kho còn hay hết. Nhưng giờ đây cửa
+                                                hàng của tôi đã hoàn toàn khác nhờ có Sapo POS!
+                                            </p>
+                                            <strong>Chủ cửa hàng phong thủy Sala</strong>
+                                            <span>Địa chỉ: số 114, Nguyễn Văn Trỗi, Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=-cwRvv3FfwU"
+                                               data-fancybox="video" title="Chủ cửa hàng phong thủy Sala">
+                                                <img src="./img/khach-hang/customer-slide-3.jpg"
+                                                     alt="Chủ cửa hàng phong thủy Sala" class="fade show">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-swiper-slide-index="4">
+                                        <div class="content">
+                                            <p>
+                                                Tôi đánh giá cao cách làm làm việc, tư vấn của các bạn nhân viên Sapo,
+                                                sự nhiệt tình, chuyên nghiệp làm tôi khá ấn tượng. Qua Sapo, tôi có thể
+                                                nắm được số lượng tồn kho, mẫu quần áo nào đang bán chạy hay đang tồn
+                                                nhiều để có kế hoạch điều chỉnh phù hợp.
+                                            </p>
+                                            <strong>Chủ shop thời trang Amprin</strong>
+                                            <span>Địa chỉ: 796 Quang Trung, P8, Gò Vấp, TP.HCM</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=Layyfl4gHVE"
+                                               data-fancybox="video" title="Chủ shop thời trang Amprin">
+                                                <img src="./img/khach-hang/customer-slide-4.jpg"
+                                                     alt="Chủ shop thời trang Amprin" class="fade show">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-swiper-slide-index="5">
+                                        <div class="content">
+                                            <p>
+                                                Tôi được bạn giới thiệu bảo dùng Sapo thử xem, tôi có tải thử 1 bản quản
+                                                lý cửa hàng của Sapo vào điện thoại thì thấy khá thú vị. Tôi xem được
+                                                doanh thu, các đơn hàng được bán trong ngày, thậm chí tôi còn biết được
+                                                mặt hàng nào đang bán chạy. Rất tiện lợi
+                                            </p>
+                                            <strong>Chủ cửa hàng Viethands</strong>
+                                            <span>Địa chỉ: 16-18 Xuân Diệu, Tân Bình, TP.HCM</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=8dYgKXfRth0"
+                                               data-fancybox="video" title="Chủ cửa hàng Viethands">
+                                                <img src="./img/khach-hang/customer-slide-5.jpg"
+                                                     alt="Chủ cửa hàng Viethands" class="fade show">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+                                        >
+                                        <div class="content">
+                                            <p>
+                                                Nhờ việc sử dụng phần mềm Sapo để quản lý hệ thống cửa hàng kết hợp bán
+                                                hàng online trên facebook và trên sàn thương mại điện tử. Khách hàng
+                                                Sapo vẫn hàng ngày tư vấn, chốt đơn, đóng gói và vận chuyển hàng hóa tới
+                                                tay người tiêu dùng
+                                            </p>
+                                            <strong>Bán hàng online mùa dịch Covid-19</strong>
+                                            <span>Cơ hội và thách thức</span>
+                                        </div>
+                                        <div class="image">
+                                            <a href="javascript:;"
+                                               data-src="https://www.youtube.com/watch?v=EC-eWXIC0n4"
+                                               data-fancybox="video"
+                                               title="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức">
+                                                <img src="./img/khach-hang/customer-slide.jpg"
+                                                     alt="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức"
+                                                     class="fade show">
+                                                <span class="fa fa-play"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                                    <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                          aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet"
+                                                                                  tabindex="0" role="button"
+                                                                                  aria-label="Go to slide 2"></span><span
+                                        class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                        role="button" aria-label="Go to slide 3"></span><span
+                                        class="swiper-pagination-bullet" tabindex="0" role="button"
+                                        aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet"
+                                                                                tabindex="0" role="button"
+                                                                                aria-label="Go to slide 5"></span><span
+                                        class="swiper-pagination-bullet" tabindex="0" role="button"
+                                        aria-label="Go to slide 6"></span></div>
+                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev d-none d-xl-block" tabindex="0" role="button"
+                         aria-label="Previous slide"><i class="fa fa-angle-left"></i></div>
+                    <div class="swiper-button-next d-none d-xl-block" tabindex="0" role="button"
+                         aria-label="Next slide"><i class="fa fa-angle-right"></i></div>
+                </div>
+            </div>
+
+            <div class="customer-story text-center">
+                <div class="container">
+                    <h2>Khám phá câu chuyện khách hàng thành công</h2>
+                    <p>khi sử dụng những giải pháp cung cấp bởi Sapo</p>
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <div class="item large">
+                                <a href="#">
+                                    <img src="./img/khach-hang/img-story-1.jpg" alt="Leka" class="fade show">
+                                </a>
+                                <div class="info">
+                                    <div>
+                                        <p>
+                                            Leka là thương hiệu túi xách và phụ kiện cao cấp được thiết kế và sản xuất tại Việt Nam. Mang phong cách tinh tế và hiện đại, được gia công tỉ mỉ, sử dụng da thật cao cấp nhập khẩu từ Ý. LEKA tự hào là thương hiệu túi xách đầu tiên được bán tại Nhật Bản.
+                                        </p>
+                                        <a href="/khach-hang/Leka-Balo-tui-xach-vi-da-that-danh-cho-nam-va-nu" class="btn-registration">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="./img/khach-hang/img-story-2.jpg" alt="Beemart" class="fade show">
+                                </a>
+                                <div class="info">
+                                    <div>
+                                        <p>
+                                            Ra đời từ đam mê với nghệ thuật làm bánh, Beemart tự hào là hệ thống cửa hàng đồ làm bánh hàng đầu Việt Nam
+                                        </p>
+                                        <a href="#" class="btn-registration">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="./img/khach-hang/img-story-3.jpg" alt="Remax Viet Nam" class="fade show">
+                                </a>
+                                <div class="info">
+                                    <div>
+                                        <p>
+                                            Tự hào là đại diện Remax tại Việt Nam, Remax mang đến các sản phẩm công nghệ chính hãng, chất lượng tốt nhất
+                                        </p>
+                                        <a href="#" class="btn-registration">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item large">
+                                <a href="#">
+                                    <img src="./img/khach-hang/img-story-4.jpg" alt="amPrin" class="fade show">
+                                </a>
+                                <div class="info">
+                                    <div>
+                                        <p>
+                                            Amprin là thương hiệu được bảo hộ độc quyền tại Việt Nam, ra đời với mong muốn tạo ra những sản phẩm quần áo trẻ em Made in Vietnam đạt chất lượng quốc tế với giá cả hợp lí.  Mục tiêu của Amprin là xây dựng chuỗi cửa hàng khắp Việt Nam và vươn ra ngoài thế giới.
+                                        </p>
+                                        <a href="#" class="btn-registration">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="item large">
+                                <a href="#">
+                                    <img src="./img/khach-hang/img-story-5.jpg" alt="Suitstudio" class="fade show">
+                                </a>
+                                <div class="info">
+                                    <div>
+                                        <p>
+                                            Suitstudio là thương hiệu chuyên cung cấp suit thời trang, lịch thiệp, sang trọng. Với mong muốn mang đến cho những người yêu thích suit và cộng đồng những nghệ sĩ một địa điểm chuyên cung cấp các sản phẩm suit chất lượng, uy tín hàng đầu Việt Nam
+                                        </p>
+                                        <a href="#" class="btn-registration">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="./img/khach-hang/img-story-6.jpg" alt="Biketown" class="fade show">
+                                </a>
+                                <div class="info">
+                                    <div>
+                                        <p>
+                                            Biketown - hệ thống chuyên phân phối các dòng xe điện từ các thương hiệu nổi tiếng như: Pega, Fuji,.. tại Việt Nam.
+                                        </p>
+                                        <a href="#" class="btn-registration">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="viewMore">Xem thêm khách hàng khác</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div w3-include-html="layout/footer.html"></div>
+</div>
+
+<script>
+    includeHTML();
+</script>
+<script>
+    addLoadEvent(function(){
+        var customersSwiper = new Swiper('.customer-slide .swiper-container', {
+            slidesPerView: 1,
+            preloadImages: false,
+            lazy: true,
+            autoplay: {
+                delay: 3000,
+            },
+            loop: true,
+            pagination: {
+                el: '.customer-slide .swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.customer-slide .swiper-button-next',
+                prevEl: '.customer-slide .swiper-button-prev',
+            }
+        });
+    });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

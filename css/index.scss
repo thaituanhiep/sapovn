@@ -13,35 +13,12 @@ $tablet-horizontal: 992px;
     }
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
-}
-
-body>#container {
-    width: 1920px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
 }
 
 img {
@@ -57,66 +34,13 @@ img {
     }
 }
 
-.btn-registration {
-    color: #fff;
-    background: #2ad38b;
-    background: linear-gradient(to right, #2ad38b, #0cceb0);
-    border-radius: 45px;
-    display: inline-block;
-    line-height: 63px;
-    padding: 0 35px;
-    outline: none;
-    -webkit-user-select: none;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    white-space: nowrap;
-    font-size: 16px;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
-    @include mobile {
-        margin-top: 16px !important;
-    }
-
-    &:before {
-        content: "";
-        border-radius: 45px;
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, .04);
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transform-origin: 50%;
-        transform-origin: 50%;
-        -webkit-transition: all .5s ease-out;
-        -moz-transition: all .5s ease-out;
-        transition: all .5s ease-out;
-    }
-
-    &:hover {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    &:before {
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
-}
-
 .home-wrapper .banner.bg-default {
-    background: url("../img/banner/bg-banner.jpg") no-repeat center top #f3fbfe;
+    background: url("../img/index/banner/bg-banner.jpg") no-repeat center top #f3fbfe;
     @include tablet {
-        background: url(../img/banner/bg-banner-tablet.jpg) no-repeat bottom center;
+        background: url(../img/index/banner/bg-banner-tablet.jpg) no-repeat bottom center;
     }
     @include mobile {
-        background: url(../img/banner/bg-banner-mobile.jpg) no-repeat bottom center #f7fcff;
+        background: url(../img/index/banner/bg-banner-mobile.jpg) no-repeat bottom center #f7fcff;
     }
 }
 
@@ -368,7 +292,7 @@ img {
 
 .home-wrapper .customers {
     padding: 21px 0 40px;
-    background: url(../img/bg-customers.svg) no-repeat bottom center;
+    background: url(../img/index/customer/bg-customers.svg) no-repeat bottom center;
     background-size: cover;
     @include mobile {
         padding: 0 0 30px;
@@ -634,7 +558,7 @@ img {
 
 .home-wrapper .slogan {
     color: #fff;
-    background: url(../img/bg-slogan.svg) no-repeat center top;
+    background: url(../img/index/slogan/bg-slogan.svg) no-repeat center top;
     padding: 80px 0 60px;
     background-size: cover;
 
