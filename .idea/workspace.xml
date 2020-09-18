@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -31,11 +31,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/khach-hang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/dang-nhap" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\dang-nhap" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\khach-hang" />
+      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\bang-gia" />
+      <recent name="C:\Users\this PC\WebstormProjects\sapovn\img\header" />
+      <recent name="C:\Users\this PC\WebstormProjects\sapovn\font" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\this PC\Documents\My github\sapovn\img\khach-hang" />
       <recent name="C:\Users\this PC\Documents\My github\sapovn\Themes\Portal\Default\StylesV2\Images\landingsite\ld-customersapo" />
@@ -43,29 +50,26 @@
       <recent name="C:\Users\this PC\Documents\My github\sapovn\img\index\customer" />
       <recent name="C:\Users\this PC\Documents\My github\sapovn\img\index" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\khach-hang" />
-      <recent name="C:\Users\this PC\Documents\My github\sapovn\img\bang-gia" />
-      <recent name="C:\Users\this PC\WebstormProjects\sapovn\img\header" />
-      <recent name="C:\Users\this PC\WebstormProjects\sapovn\font" />
-      <recent name="C:\Users\this PC\WebstormProjects\sapovn\img\footer" />
-    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="bang-gia.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/bang-gia.html" useBuiltInWebServerPort="true">
+    <configuration name="customer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/customer.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="khach-hang.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/khach-hang.html" useBuiltInWebServerPort="true">
+    <configuration name="login-page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/login-page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="price-board.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sapovn/price-board.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.khach-hang.html" />
-        <item itemvalue="JavaScript Debug.bang-gia.html" />
+        <item itemvalue="JavaScript Debug.login-page.html" />
+        <item itemvalue="JavaScript Debug.customer.html" />
+        <item itemvalue="JavaScript Debug.price-board.html" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +91,9 @@
       <workItem from="1600346817921" duration="14163000" />
       <workItem from="1600383602192" duration="5212000" />
       <workItem from="1600388832408" duration="4108000" />
-      <workItem from="1600395081995" duration="1682000" />
+      <workItem from="1600395081995" duration="2185000" />
+      <workItem from="1600397340382" duration="4891000" />
+      <workItem from="1600404015867" duration="1135000" />
     </task>
     <servers />
   </component>
@@ -103,6 +109,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#SCSS/0.0.1920.1040@0.0.1920.1040" timestamp="1600144725445" />
+    <state x="268" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600405296354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="268" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600405296354" />
     <state x="599" y="320" key="EditFileWatcherDialog" timestamp="1600143705903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -121,7 +121,7 @@ img {
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-    background-image: url(../img/khach-hang/prev.svg);
+    background-image: url(../img/customer/prev.svg);
     left: 10px;
     right: auto;
 }
@@ -143,7 +143,7 @@ img {
 
 .customer-sapo {
     .banner {
-        background: url(../img/khach-hang/bg-banner.jpg) no-repeat bottom center;
+        background: url(../img/customer/bg-banner.jpg) no-repeat bottom center;
         padding: 71px 0 89px;
         color: #fff;
         @include tablet {
@@ -236,7 +236,7 @@ img {
             .content {
                 width: 50%;
                 padding: 6px 33px 59px;
-                background: url(../img/khach-hang/icon-quote.png) no-repeat bottom center;
+                background: url(../img/customer/icon-quote.png) no-repeat bottom center;
                 @include tablet {
                     width: 100%;
                     order: 2;

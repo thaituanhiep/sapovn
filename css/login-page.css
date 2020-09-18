@@ -90,7 +90,7 @@
 }
 
 .affiliate {
-  background: url(../img/dang-nhap/bg-page.jpg) no-repeat bottom center;
+  background: url(../img/login-page/bg-page.jpg) no-repeat bottom center;
   padding: 206px 0 217px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -214,4 +214,4 @@
   }
 }
 
-/*# sourceMappingURL=dang-nhap.css.map */
+/*# sourceMappingURL=login-page.css.map */

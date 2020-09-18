@@ -3,34 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Những khách hàng tiêu biểu đã tin dùng dịch vụ Sapo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        function includeHTML() {
-            var z, i, elmnt, file, xhttp;
-            /*loop through a collection of all HTML elements:*/
-            z = document.getElementsByTagName("*");
-            for (i = 0; i < z.length; i++) {
-                elmnt = z[i];
-                /*search for elements with a certain atrribute:*/
-                file = elmnt.getAttribute("w3-include-html");
-                if (file) {
-                    /*make an HTTP request using the attribute value as the file name:*/
-                    xhttp = new XMLHttpRequest();
-                    xhttp.onreadystatechange = function() {
-                        if (this.readyState == 4) {
-                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                            /*remove the attribute, and call this function once more:*/
-                            elmnt.removeAttribute("w3-include-html");
-                            includeHTML();
-                        }
-                    }
-                    xhttp.open("GET", file, true);
-                    xhttp.send();
-                    /*exit the function:*/
-                    return;
-                }
-            }
-        };
+        $(function(){
+            $("#header").load("layout/header.html");
+            $("#footer").load("layout/footer.html");
+        });
+
+        function openMenu() {
+            $('body').css('overflow', 'hidden');
+            $('.overlay-menu').fadeIn(300);
+            $('.menu-mobile').addClass('show');
+        }
+
+        function closeMenu() {
+            $('body').css('overflow', '');
+            $('.overlay-menu').fadeOut(300);
+            $('.menu-mobile').removeClass('show');
+        }
     </script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -43,11 +33,11 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/khach-hang.css">
+    <link rel="stylesheet" href="css/customer.css">
 </head>
 <body>
 <div id="container">
-    <div w3-include-html="layout/header.html"></div>
+    <div id="header"></div>
 
     <div id="wrapper" class="clearfix">
         <div class="customer-sapo">
@@ -81,7 +71,7 @@
                                             <a href="javascript:;"
                                                data-src="https://www.youtube.com/watch?v=8dYgKXfRth0"
                                                data-fancybox="video" title="Chủ cửa hàng Viethands">
-                                                <img src="./img/khach-hang/customer-slide-5.jpg"
+                                                <img src="img/customer/customer-slide-5.jpg"
                                                      alt="Chủ cửa hàng Viethands">
                                                 <span class="fa fa-play"></span>
                                             </a>
@@ -103,7 +93,7 @@
                                                data-src="https://www.youtube.com/watch?v=EC-eWXIC0n4"
                                                data-fancybox="video"
                                                title="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức">
-                                                <img src="./img/khach-hang/customer-slide.jpg"
+                                                <img src="img/customer/customer-slide.jpg"
                                                      alt="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức"
                                                      class="fade show">
                                                 <span class="fa fa-play"></span>
@@ -127,7 +117,7 @@
                                             <a href="javascript:;"
                                                data-src="https://www.youtube.com/watch?v=_if4WTgxong"
                                                data-fancybox="video" title="Chủ cửa hàng mỹ phẩm Lengrin">
-                                                <img src="./img/khach-hang/customer-slide-1.jpg"
+                                                <img src="img/customer/customer-slide-1.jpg"
                                                      alt="Chủ cửa hàng mỹ phẩm Lengrin" class="fade show">
                                                 <span class="fa fa-play"></span>
                                             </a>
@@ -149,7 +139,7 @@
                                             <a href="javascript:;"
                                                data-src="https://www.youtube.com/watch?v=EGitgpy6mLY"
                                                data-fancybox="video" title="Chủ cửa hàng xe điện Lan Anh">
-                                                <img src="img/khach-hang/customer-slide-2.jpg"
+                                                <img src="img/customer/customer-slide-2.jpg"
                                                      alt="Chủ cửa hàng xe điện Lan Anh" class="fade show">
                                                 <span class="fa fa-play"></span>
                                             </a>
@@ -171,7 +161,7 @@
                                             <a href="javascript:;"
                                                data-src="https://www.youtube.com/watch?v=-cwRvv3FfwU"
                                                data-fancybox="video" title="Chủ cửa hàng phong thủy Sala">
-                                                <img src="./img/khach-hang/customer-slide-3.jpg"
+                                                <img src="img/customer/customer-slide-3.jpg"
                                                      alt="Chủ cửa hàng phong thủy Sala" class="fade show">
                                                 <span class="fa fa-play"></span>
                                             </a>
@@ -192,7 +182,7 @@
                                             <a href="javascript:;"
                                                data-src="https://www.youtube.com/watch?v=Layyfl4gHVE"
                                                data-fancybox="video" title="Chủ shop thời trang Amprin">
-                                                <img src="./img/khach-hang/customer-slide-4.jpg"
+                                                <img src="img/customer/customer-slide-4.jpg"
                                                      alt="Chủ shop thời trang Amprin" class="fade show">
                                                 <span class="fa fa-play"></span>
                                             </a>
@@ -213,7 +203,7 @@
                                             <a href="javascript:;"
                                                data-src="https://www.youtube.com/watch?v=8dYgKXfRth0"
                                                data-fancybox="video" title="Chủ cửa hàng Viethands">
-                                                <img src="./img/khach-hang/customer-slide-5.jpg"
+                                                <img src="img/customer/customer-slide-5.jpg"
                                                      alt="Chủ cửa hàng Viethands" class="fade show">
                                                 <span class="fa fa-play"></span>
                                             </a>
@@ -236,7 +226,7 @@
                                                data-src="https://www.youtube.com/watch?v=EC-eWXIC0n4"
                                                data-fancybox="video"
                                                title="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức">
-                                                <img src="./img/khach-hang/customer-slide.jpg"
+                                                <img src="img/customer/customer-slide.jpg"
                                                      alt="Bán hàng online mùa dịch Covid-19 - Cơ hội và thách thức"
                                                      class="fade show">
                                                 <span class="fa fa-play"></span>
@@ -275,7 +265,7 @@
                         <div class="col-md-4 col-12">
                             <div class="item large">
                                 <a href="#">
-                                    <img src="./img/khach-hang/img-story-1.jpg" alt="Leka" class="fade show">
+                                    <img src="img/customer/img-story-1.jpg" alt="Leka" class="fade show">
                                 </a>
                                 <div class="info">
                                     <div>
@@ -288,7 +278,7 @@
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img src="./img/khach-hang/img-story-2.jpg" alt="Beemart" class="fade show">
+                                    <img src="img/customer/img-story-2.jpg" alt="Beemart" class="fade show">
                                 </a>
                                 <div class="info">
                                     <div>
@@ -303,7 +293,7 @@
                         <div class="col-md-4 col-12">
                             <div class="item">
                                 <a href="#">
-                                    <img src="./img/khach-hang/img-story-3.jpg" alt="Remax Viet Nam" class="fade show">
+                                    <img src="img/customer/img-story-3.jpg" alt="Remax Viet Nam" class="fade show">
                                 </a>
                                 <div class="info">
                                     <div>
@@ -316,7 +306,7 @@
                             </div>
                             <div class="item large">
                                 <a href="#">
-                                    <img src="./img/khach-hang/img-story-4.jpg" alt="amPrin" class="fade show">
+                                    <img src="img/customer/img-story-4.jpg" alt="amPrin" class="fade show">
                                 </a>
                                 <div class="info">
                                     <div>
@@ -331,7 +321,7 @@
                         <div class="col-md-4 col-12">
                             <div class="item large">
                                 <a href="#">
-                                    <img src="./img/khach-hang/img-story-5.jpg" alt="Suitstudio" class="fade show">
+                                    <img src="img/customer/img-story-5.jpg" alt="Suitstudio" class="fade show">
                                 </a>
                                 <div class="info">
                                     <div>
@@ -344,7 +334,7 @@
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img src="./img/khach-hang/img-story-6.jpg" alt="Biketown" class="fade show">
+                                    <img src="img/customer/img-story-6.jpg" alt="Biketown" class="fade show">
                                 </a>
                                 <div class="info">
                                     <div>
@@ -363,7 +353,7 @@
         </div>
     </div>
 
-    <div w3-include-html="layout/footer.html"></div>
+    <div id="footer"></div>
 </div>
 
 <script>
@@ -390,7 +380,6 @@
         });
     });
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>

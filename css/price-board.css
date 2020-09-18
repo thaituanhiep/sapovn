@@ -68,7 +68,7 @@ sup {
   }
 }
 .home-price .packages .item.pos {
-  background-image: url(../img/bang-gia/bg-package-pos-update.png);
+  background-image: url(../img/price-board/bg-package-pos-update.png);
   display: flex;
   padding: 30px 0 40px;
   background-position: right bottom;
@@ -81,7 +81,7 @@ sup {
 @media (max-width: 767px) {
   .home-price .packages .item.pos {
     display: block;
-    background: url(../img/bang-gia/bg-package-pos-m-update.png) no-repeat bottom 0 center;
+    background: url(../img/price-board/bg-package-pos-m-update.png) no-repeat bottom 0 center;
     background-size: 100%;
   }
 }
@@ -381,7 +381,7 @@ sup {
   left: 0;
   top: 17%;
   transform: translateY(-17%);
-  background: url(../img/bang-gia/icon-checked-blue-update-2.svg) no-repeat center center;
+  background: url(../img/price-board/icon-checked-blue-update-2.svg) no-repeat center center;
 }
 .home-price .packages .item ul li.no-icon {
   padding-left: 0;
@@ -396,7 +396,7 @@ sup {
   background-image: none;
 }
 .home-price .packages .item.fnb {
-  background-image: url(../img/bang-gia/bg-package-fnb-update.png);
+  background-image: url(../img/price-board/bg-package-fnb-update.png);
 }
 @media (max-width: 767px) {
   .home-price .packages .item.fnb {
@@ -419,13 +419,13 @@ sup {
   color: #07c6fa;
 }
 .home-price .packages .item.fnb ul li:before {
-  background: url(../img/bang-gia/icon-checked-fnb.svg) no-repeat center center;
+  background: url(../img/price-board/icon-checked-fnb.svg) no-repeat center center;
 }
 .home-price .packages .item.fnb ul li.no-icon:before {
   background-image: none !important;
 }
 .home-price .packages .item.go {
-  background-image: url(../img/bang-gia/bg-package-go-update.png);
+  background-image: url(../img/price-board/bg-package-go-update.png);
 }
 @media (max-width: 767px) {
   .home-price .packages .item.go {
@@ -448,13 +448,13 @@ sup {
   color: #37b3ae;
 }
 .home-price .packages .item.go ul li:before {
-  background: url(../img/bang-gia/icon-checked-go.svg) no-repeat center center;
+  background: url(../img/price-board/icon-checked-go.svg) no-repeat center center;
 }
 .home-price .packages .item.go ul li.no-icon:before {
   background-image: none !important;
 }
 .home-price .packages .item.web {
-  background-image: url(../img/bang-gia/bg-package-fnb-update.png);
+  background-image: url(../img/price-board/bg-package-fnb-update.png);
 }
 @media (max-width: 767px) {
   .home-price .packages .item.web {
@@ -477,13 +477,13 @@ sup {
   color: #07c6fa;
 }
 .home-price .packages .item.web ul li:before {
-  background: url(../img/bang-gia/icon-checked-fnb.svg) no-repeat center center;
+  background: url(../img/price-board/icon-checked-fnb.svg) no-repeat center center;
 }
 .home-price .packages .item.web ul li.no-icon:before {
   background-image: none !important;
 }
 .home-price .packages .item.omni {
-  background-image: url(../img/bang-gia/bg-package-omni-update.png);
+  background-image: url(../img/price-board/bg-package-omni-update.png);
   display: flex;
   padding: 30px 0 40px;
   background-position: right bottom;
@@ -497,7 +497,7 @@ sup {
 @media (max-width: 767px) {
   .home-price .packages .item.omni {
     display: block;
-    background: url(../img/bang-gia/bg-package-omni-m-update.png) no-repeat bottom 0 center;
+    background: url(../img/price-board/bg-package-omni-m-update.png) no-repeat bottom 0 center;
     margin-bottom: 30px;
     background-size: 100%;
   }
@@ -605,4 +605,4 @@ sup {
   position: relative;
 }
 
-/*# sourceMappingURL=bang-gia.css.map */
+/*# sourceMappingURL=price-board.css.map */
