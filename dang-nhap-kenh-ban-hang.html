@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        };
+        function openMenu() {
+            $('body').css('overflow', 'hidden');
+            $('.overlay-menu').fadeIn(300);
+            $('.menu-mobile').addClass('show');
+        }
+
+        function closeMenu() {
+            $('body').css('overflow', '');
+            $('.overlay-menu').fadeOut(300);
+            $('.menu-mobile').removeClass('show');
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dang-nhap.css">
+</head>
+<body>
+<div id="container">
+    <div w3-include-html="layout/header.html"></div>
+
+    <div id="wrapper">
+        <div class="login-sapo">
+            <div class="container">
+                <h1>Lựa chọn kênh bán hàng để đăng nhập</h1>
+                <p>+ 67,000 doanh nghiệp và chủ shop đã sử dụng</p>
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 col-lg-10">
+                        <div class="row justify-content-center">
+                            <div class="col-xl col-md-6 col-sm-6 login-channel">
+                                <div class="image">
+                                    <a onclick="showPOSForm()" href="javascript:;">
+                                        <img src="./img/dang-nhap/icon-login-1.svg" width="71" class="fade show">
+                                    </a>
+                                </div>
+                                <a class="btn-registration" onclick="showPOSForm()" href="javascript:;">POS, Omnichannel</a>
+                            </div>
+                            <div class="col-xl col-md-6 col-sm-6 login-channel">
+                                <div class="image">
+                                    <a onclick="showPOSForm('GO')" href="javascript:;">
+                                        <img src="./img/dang-nhap/icon-login-2.svg" width="83" class="fade show">
+                                    </a>
+                                </div>
+                                <a class="btn-registration" onclick="showPOSForm('GO')" href="javascript:;">Quản trị Sapo GO</a>
+                            </div>
+                            <div class="col-xl col-md-6 col-sm-6 login-channel">
+                                <div class="image">
+                                    <a onclick="showFnbForm()" href="javascript:;">
+                                        <img src="./img/dang-nhap/icon-login-3.svg" width="77" class="fade show">
+                                    </a>
+                                </div>
+                                <a class="btn-registration" onclick="showFnbForm()" href="javascript:;">Quản trị FnB</a>
+                            </div>
+                            <div class="col-xl col-md-6 col-sm-6 login-channel">
+                                <div class="image">
+                                    <a onclick="showWebForm()" href="javascript:;">
+                                        <img src="./img/dang-nhap/icon-login-4.svg" width="76" class="fade show">
+                                    </a>
+                                </div>
+                                <a class="btn-registration" onclick="showWebForm()" href="javascript:;">Quản trị Website</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:;" class="scroll-down d-none d-xl-block" data-href=".affiliate"><i class="ti-angle-down"></i></a>
+        </div>
+
+        <div class="affiliate text-center">
+            <div class="container">
+                <p>Bạn đang là khách hàng của Sapo và muốn gia tăng thu nhập? Còn chần chừ gì mà không tham gia chương trình</p>
+                <h2>“Giới thiệu khách hàng - Ngập tràn tiền thưởng"</h2>
+                <div class="row">
+                    <div class="col-lg-5 block-content">
+                        <p>Chỉ cần giới thiệu 01 khách hàng mới đăng <br class="d-none d-lg-block">ký sử dụng các sản phẩm, dịch vụ của Sapo. <br class="d-none d-lg-block">Bạn sẽ nhận được ngay tiền mặt trị giá lên tới</p>
+                        <div class="price">
+                            <span>500.000đ</span>
+                            cùng nhiều giải thưởng giá trị khác
+                        </div>
+                        <a href="#" class="btn-registration">Xem ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div w3-include-html="layout/footer.html"></div>
+</div>
+
+<script>
+    includeHTML();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+.login-sapo {
+  border-top: 1px solid #efefef;
+  padding: 99px 0 14px;
+  text-align: center;
+  position: relative;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .login-sapo {
+    padding: 40px 0 14px;
+  }
+}
+@media (max-width: 767px) {
+  .login-sapo {
+    padding: 40px 0 0;
+  }
+}
+.login-sapo h1 {
+  font-size: 42px;
+  font-weight: 300;
+  color: #000;
+  margin: 0 0 13px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .login-sapo h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .login-sapo h1 {
+    font-size: 28px;
+    line-height: normal;
+  }
+}
+.login-sapo p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 48px;
+  color: #42464e;
+}
+@media (max-width: 767px) {
+  .login-sapo p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .login-sapo .login-channel {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 767px) {
+  .login-sapo .login-channel {
+    margin-bottom: 30px;
+  }
+}
+.login-sapo .login-channel .image {
+  height: 82px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0 0 27px;
+}
+@media (max-width: 767px) {
+  .login-sapo .login-channel .image {
+    margin: 0;
+  }
+}
+.login-sapo .login-channel .btn-registration {
+  font-size: 16px;
+  font-weight: 400;
+  width: 180px;
+  padding: 0 10px;
+  height: 45px;
+  line-height: 45px;
+  outline: none;
+  background-image: -moz-linear-gradient(0deg, #2ad38c 0%, #0cceb0 100%);
+  background-image: -webkit-linear-gradient(0deg, #2ad38c 0%, #0cceb0 100%);
+  background-image: -ms-linear-gradient(0deg, #2ad38c 0%, #0cceb0 100%);
+}
+.login-sapo .scroll-down {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+}
+
+.affiliate {
+  background: url(../img/dang-nhap/bg-page.jpg) no-repeat bottom center;
+  padding: 206px 0 217px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .affiliate {
+    background: #eef7ff;
+    padding: 60px 0;
+  }
+}
+@media (max-width: 767px) {
+  .affiliate {
+    background: #eef7ff;
+    padding: 40px 0;
+  }
+}
+.affiliate p {
+  color: #000;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0 0 15px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .affiliate p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 767px) {
+  .affiliate p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+.affiliate h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2f9dff;
+  line-height: 1.2;
+  margin: 0 0 88px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .affiliate h2 {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 767px) {
+  .affiliate h2 {
+    margin: 0 0 30px;
+    font-size: 26px;
+  }
+}
+.affiliate .block-content p {
+  line-height: 32px;
+  margin: 0 0 15px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .affiliate .block-content p {
+    line-height: 1.2;
+  }
+}
+@media (max-width: 767px) {
+  .affiliate .block-content p {
+    line-height: 1.2;
+  }
+}
+.affiliate .block-content .price {
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #2f9dff;
+  font-weight: bold;
+  margin: 0 0 45px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .affiliate .block-content .price {
+    font-size: 20px;
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 767px) {
+  .affiliate .block-content .price {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+}
+.affiliate .block-content .price span {
+  display: block;
+  text-transform: initial;
+  font-weight: 900;
+  font-size: 82px;
+  line-height: 1;
+  letter-spacing: 4px;
+  margin: 0 0 10px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .affiliate .block-content .price span {
+    font-size: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .affiliate .block-content .price span {
+    font-size: 50px;
+  }
+}
+.affiliate .block-content .btn-registration {
+  height: 60px;
+  line-height: 60px;
+  width: 230px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .affiliate .block-content .btn-registration {
+    height: 45px;
+    line-height: 45px;
+    width: auto;
+    padding: 0 40px;
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=dang-nhap.css.map */
